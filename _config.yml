@@ -7,35 +7,35 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jinxiang Xie"
+title                    : "MA CHENGJIE"
 title_separator          : "-"
-subtitle                 : 
-name                     : "Jinxiang Xie"
-description              : ""
-url                     : "https://jxtse.github.io"
-baseurl                 : ""
-repository               : "jxtse/jxtse.github.io"
+subtitle                 :
+name                     : "MA CHENGJIE"
+description              : "Efficient deep learning"
+url                     : "https://machengjie321.github.io"
+baseurl                  : "/ChengjieMa.github.io"
+repository               : "machengjie321/ChengjieMa.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  googlea34440bfd0246b9e.html
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Jinxiang Xie"
+  name             : "MA CHENGJIE"
   avatar           : "images/android-chrome-512x512.jpg"
-  bio              : "Nanjing University"
-  location         : "Nanjing, China"
-  employer         :
+  bio              : "Efficient deep learning"
+  location         : "Seoul, South Korea"
+  employer         : "Yonsei University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=00fFhxQAAAAJ"
-  email            : "jxTse@outlook.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=rQ45e8EAAAAJ"
+  email            : "cjma@ramo.yonsei.ac.kr"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -43,13 +43,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jxtse"
+  github           :
   google_plus      :
   keybase          :
-  instagram        : "richardtse_"
+  instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "jinxiang-xie"
+  linkedin         :
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
@@ -57,7 +57,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "JinxiangTse"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -162,7 +162,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

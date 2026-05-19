@@ -23,7 +23,7 @@ jobs:
     - name: Install Reqs
       run: |
         python -m pip install --upgrade pip setuptools wheel
-        python -m pip install -r requirements.txt
+        python -m pip install -r google_scholar_crawler/requirements.txt
     - name: Run
       run: |
         set -e

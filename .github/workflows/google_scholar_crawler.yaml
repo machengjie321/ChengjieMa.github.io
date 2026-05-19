@@ -8,24 +8,37 @@ on:
  schedule:
   - cron:  '0 8 * * *'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
     - name: Install Reqs
       run: |
-        sudo apt-get install python3-setuptools
+        python -m pip install --upgrade pip setuptools wheel
+        python -m pip install -r requirements.txt
     - name: Run
       run: |
+        set -e
         cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
+        python main.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
+        if git diff --cached --quiet; then
+          echo "No citation changes"
+          exit 0
+        fi
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env: 

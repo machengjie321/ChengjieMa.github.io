@@ -11,7 +11,7 @@ title                    : "MA CHENGJIE"
 title_separator          : "-"
 subtitle                 :
 name                     : "MA CHENGJIE"
-description              : "Efficient deep learning"
+description              : "Federated Learning"
 url                     : "https://machengjie321.github.io"
 baseurl                  : "/ChengjieMa.github.io"
 repository               : "machengjie321/ChengjieMa.github.io"
@@ -29,7 +29,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "MA CHENGJIE"
   avatar           : "images/android-chrome-512x512.jpg"
-  bio              : "Efficient deep learning"
+  bio              : "Federated Learning"
   location         : "Seoul, South Korea"
   employer         : "Yonsei University"
   pubmed           : 

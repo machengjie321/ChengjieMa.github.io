@@ -111,7 +111,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am <span class="accent-text">MA CHENGJIE</span> (<span>马成洁</span>) at <span class="primary-gradient-text">Yonsei University</span>. My research focus is <span class="primary-gradient-text">efficient deep learning</span>. You can reach me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
+I am <span class="accent-text">MA CHENGJIE</span> (<span>马成洁</span>) at <span class="primary-gradient-text">Yonsei University</span>. My research focus is <span class="primary-gradient-text">Federated Learning</span>. You can reach me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
 
 <div class="quote-accent">
 This homepage is wired to sync publication metadata from <span class="primary-gradient-text">Google Scholar</span>.
@@ -125,8 +125,8 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
   </div>
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Research</div>
-    <div class="scholar-summary-value">Efficient deep learning</div>
-    <p class="scholar-summary-copy">You can later expand this into topics, projects, and recent news.</p>
+    <div class="scholar-summary-value">Federated Learning</div>
+    <p class="scholar-summary-copy">Verified email at yonsei.ac.kr on Google Scholar.</p>
   </div>
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Scholar Sync</div>
@@ -146,6 +146,29 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
   const pubsEl = document.getElementById('scholar-pubs');
   const statusEl = document.getElementById('scholar-pubs-status');
   const totalCitEl = document.getElementById('total_cit');
+  const fallbackPublications = [
+    {
+      title: "Breaking the Capacity Bottleneck in Model-Heterogeneous Federated Learning via Gradual Model Restoration",
+      authors: "C Ma, S Oh, J Park, SL Kim",
+      venue: "Forty-Third International Conference on Machine Learning",
+      year: "2025",
+      num_citations: "2*"
+    },
+    {
+      title: "Federated Topic Model and Model Pruning Based on Variational Autoencoder",
+      authors: "C Ma, Y Li, M Liang, A Li",
+      venue: "Chinese Intelligent Automation Conference, 51-60",
+      year: "2023",
+      num_citations: "1"
+    },
+    {
+      title: "Topic model based on co-occurrence word networks for unbalanced short text datasets",
+      authors: "C Ma, J Du, M Liang, Z Guan",
+      venue: "2023 5th International Conference on Data-driven Optimization of Complex Systems and Applications",
+      year: "2023",
+      num_citations: "1"
+    }
+  ];
 
   function asText(value) {
     return value === null || value === undefined ? '' : String(value);
@@ -208,6 +231,12 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
     return card;
   }
 
+  function renderFallback(message) {
+    pubsEl.innerHTML = '';
+    fallbackPublications.forEach(pub => pubsEl.appendChild(renderPublication(pub)));
+    statusEl.textContent = message;
+  }
+
   fetch(dataUrl, { cache: 'no-store' })
     .then(response => {
       if (!response.ok) {
@@ -225,7 +254,7 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
 
       const visiblePublications = publications.slice(0, 12);
       if (!visiblePublications.length) {
-        statusEl.textContent = 'No publications were returned by Google Scholar yet.';
+        renderFallback('Google Scholar has not returned publication data yet. Showing the current manual list.');
         return;
       }
 
@@ -236,7 +265,7 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
       if (totalCitEl) {
         totalCitEl.textContent = '0';
       }
-      statusEl.textContent = 'Google Scholar data is not available yet. Enable the GitHub Action and wait for the first sync.';
+      renderFallback('Google Scholar sync is temporarily unavailable. Showing the current manual list.');
     });
 })();
 </script>

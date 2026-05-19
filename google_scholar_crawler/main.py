@@ -14,10 +14,24 @@ def log(message):
     print(message, flush=True)
 
 
+def setup_proxy():
+    proxy_url = os.environ.get("SOCKS5_PROXY", "").strip()
+    if not proxy_url:
+        log("[crawler] No SOCKS5 proxy configured, using direct connection")
+        return
+
+    proxies = {"http": proxy_url, "https": proxy_url}
+    nav = scholarly._Scholarly__nav
+    nav._session1.proxies = proxies
+    nav._session2.proxies = proxies
+    log("[crawler] SOCKS5 proxy configured")
+
+
 def main():
     scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
     timeout_seconds = int(os.environ.get("SCHOLAR_FETCH_TIMEOUT_SECONDS", "480"))
 
+    setup_proxy()
     signal.signal(signal.SIGALRM, _timeout_handler)
     signal.alarm(timeout_seconds)
 

@@ -44,3 +44,4 @@ jobs:
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         SCHOLAR_FETCH_TIMEOUT_SECONDS: "480"
+        SOCKS5_PROXY: ${{ secrets.SOCKS5_PROXY }}

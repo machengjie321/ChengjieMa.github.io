@@ -135,11 +135,6 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
   </div>
 </div>
 
-# <i class="fas fa-bullhorn"></i> Services
-
-- *2026*: ICML 2026 Silver Reviewer.
-- *2023*: China Open volunteer.
-
 # <i class="fas fa-lightbulb"></i> Research Interests
 
 - Efficient Machine Learning
@@ -331,3 +326,8 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
     });
 })();
 </script>
+
+# <i class="fas fa-bullhorn"></i> Services
+
+- *2026*: ICML 2026 Silver Reviewer.
+- *2023*: China Open volunteer.

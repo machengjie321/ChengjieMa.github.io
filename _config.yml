@@ -11,7 +11,7 @@ title                    : "MA CHENGJIE"
 title_separator          : "-"
 subtitle                 :
 name                     : "MA CHENGJIE"
-description              : "Federated Learning"
+description              : "Efficient ML, Edge AI, LLM Finetuning, Federated Learning，AI-RAN"
 url                     : "https://machengjie321.github.io"
 baseurl                  : "/ChengjieMa.github.io"
 repository               : "machengjie321/ChengjieMa.github.io"
@@ -28,8 +28,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "MA CHENGJIE"
-  avatar           : "images/android-chrome-512x512.jpg"
-  bio              : "Federated Learning"
+  avatar           : "images/mcj.png"
+  bio              : "Efficient ML, Edge AI, LLM Finetuning, Federated Learning, AI-RAN"
   location         : "Seoul, South Korea"
   employer         : "Yonsei University"
   pubmed           : 

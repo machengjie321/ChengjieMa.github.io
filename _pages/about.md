@@ -113,10 +113,6 @@ redirect_from:
 
 I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span class="primary-gradient-text">Electrical and Electronic Engineering</span> at <span class="primary-gradient-text">Yonsei University</span>. My research focuses on <span class="primary-gradient-text">Efficient Machine Learning, Federated Learning, LLM Fine-tuning, and AI-RAN</span>. You can reach me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
 
-<div class="quote-accent">
-This homepage is wired to sync publication metadata from <span class="primary-gradient-text">Google Scholar</span>.
-</div>
-
 <div class="scholar-summary">
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Affiliation</div>

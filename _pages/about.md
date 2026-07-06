@@ -113,17 +113,14 @@ redirect_from:
 
 I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span class="primary-gradient-text">Electrical and Electronic Engineering</span> at <span class="primary-gradient-text">Yonsei University</span>, based in <span class="primary-gradient-text">Sinchon, Seoul</span>. My research focuses on <span class="primary-gradient-text">Efficient Machine Learning, Federated Learning, LLM Fine-tuning, and AI-RAN</span>. If you enjoy <span class="primary-gradient-text">badminton, cycling, hiking,</span> or <span class="primary-gradient-text">academic exchange</span>, feel free to reach out. You can contact me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
 
-<div class="scholar-summary">
-  <div class="scholar-summary-card floating-card">
-    <div class="scholar-summary-label">Affiliation</div>
-    <div class="scholar-summary-value">Yonsei University</div>
-    <p class="scholar-summary-copy">Ph.D. student in Electrical and Electronic Engineering.</p>
-  </div>
-  <div class="scholar-summary-card floating-card">
-    <div class="scholar-summary-label">Research</div>
-    <div class="scholar-summary-value">Efficient ML, Edge AI, Federated Learning, LLM Fine-tuning, and AI-RAN</div>
-  </div>
-</div>
+# <i class="fas fa-bullhorn"></i> News
+
+- *New*: My first ICML.
+
+# <i class="fas fa-file-alt"></i> Publications
+
+<div id="scholar-pubs" class="scholar-pubs-grid"></div>
+<p id="scholar-pubs-status" class="scholar-status">Loading publications from Google Scholar...</p>
 
 # <i class="fas fa-graduation-cap"></i> Educations
 
@@ -163,22 +160,6 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
 - *2022.03 - 2022.09*: Shared mobility review and sentiment analysis, BUPT-Didi joint project
   - Conducted topic analysis of user reviews from a shared mobility platform.
   - Analyzed user feedback and sentiment trends for taxi connection scenarios.
-
-# <i class="fas fa-trophy"></i> Honors & Awards
-
-- *2024*: Beijing Outstanding Graduate, Provincial Level.
-- *2021*: Honorary Bachelor's Degree, Chongqing University of Posts and Telecommunications, School Level.
-- *2021*: Chongqing Municipal Advanced Individual in Innovation Capability Enhancement, Provincial Level.
-
-# <i class="fas fa-envelope"></i> Contact
-
-- Email: [cjma@ramo.yonsei.ac.kr](mailto:cjma@ramo.yonsei.ac.kr)
-- Google Scholar: [Profile](https://scholar.google.com/citations?user=rQ45e8EAAAAJ)
-
-# <i class="fas fa-file-alt"></i> Publications
-
-<div id="scholar-pubs" class="scholar-pubs-grid"></div>
-<p id="scholar-pubs-status" class="scholar-status">Loading publications from Google Scholar...</p>
 
 <script>
 (function () {
@@ -310,11 +291,6 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
 })();
 </script>
 
-# <i class="fas fa-bullhorn"></i> Services
+# <i class="fas fa-book-open"></i> Blogs
 
-- *2026*: ICML 2026 Silver Reviewer.
-- *2023*: China Open volunteer.
-
-# <i class="fas fa-bullhorn"></i> News
-
-- *New*: My first ICML.
+- Visit the [blog page](/blog/) for posts and updates.

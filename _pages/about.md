@@ -119,11 +119,6 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
 
 - *New*: My first ICML.
 
-# <i class="fas fa-file-alt"></i> Publications
-
-<div id="scholar-pubs" class="scholar-pubs-grid"></div>
-<p id="scholar-pubs-status" class="scholar-status">Loading publications from Google Scholar...</p>
-
 # <i class="fas fa-graduation-cap"></i> Educations
 
 - *2024.09 - Present*: Ph.D. student, Department of Electrical and Electronic Engineering, Yonsei University
@@ -141,27 +136,10 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
   - Honorary Bachelor's Degree
   - Minor: Business Administration
 
-# <i class="fas fa-briefcase"></i> Internships
+# <i class="fas fa-file-alt"></i> Publications
 
-- *2025.09 - Present*: LLM fine-tuning and LoRA structure research, Yonsei University
-  - Exploring efficient fine-tuning methods for edge clients with limited compute and memory.
-  - Studying adaptive LoRA structures to improve parameter efficiency and training performance.
-
-- *2025.09 - Present*: AI-RAN research, Yonsei University
-  - Investigating GPU-accelerated base-station architectures for AI-RAN.
-  - Exploring the feasibility of moving selected gNB L1 workloads from CPU to GPU using NVIDIA Aerial.
-
-- *2024.09 - 2025.09*: Heterogeneous client federated learning, Yonsei University
-  - Studied federated learning with diverse client devices, asynchronous training, and heterogeneous model capacities.
-  - Analyzed how system and model heterogeneity affect update drift and training degradation.
-
-- *2022.09 - 2024.06*: Communication-efficient federated learning, Beijing University of Posts and Telecommunications
-  - Participated in a subproject of a National Natural Science Foundation major project.
-  - Focused on asynchronous training, model pruning, and federated topic modeling.
-
-- *2022.03 - 2022.09*: Shared mobility review and sentiment analysis, BUPT-Didi joint project
-  - Conducted topic analysis of user reviews from a shared mobility platform.
-  - Analyzed user feedback and sentiment trends for taxi connection scenarios.
+<div id="scholar-pubs" class="scholar-pubs-grid"></div>
+<p id="scholar-pubs-status" class="scholar-status">Loading publications from Google Scholar...</p>
 
 <script>
 (function () {
@@ -293,6 +271,40 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
 })();
 </script>
 
-# <i class="fas fa-book-open"></i> Blogs
+# <i class="fas fa-briefcase"></i> Research Experience
 
-- Visit the [blog page](/blog/) for posts and updates.
+- *2025.09 - Present*: LLM fine-tuning and LoRA structure research, Yonsei University
+  - Exploring efficient fine-tuning methods for edge clients with limited compute and memory.
+  - Studying adaptive LoRA structures to improve parameter efficiency and training performance.
+
+- *2025.09 - Present*: AI-RAN research, Yonsei University
+  - Investigating GPU-accelerated base-station architectures for AI-RAN.
+  - Exploring the feasibility of moving selected gNB L1 workloads from CPU to GPU using NVIDIA Aerial.
+
+- *2024.09 - 2025.09*: Heterogeneous client federated learning, Yonsei University
+  - Studied federated learning with diverse client devices, asynchronous training, and heterogeneous model capacities.
+  - Analyzed how system and model heterogeneity affect update drift and training degradation.
+
+- *2022.09 - 2024.06*: Communication-efficient federated learning, Beijing University of Posts and Telecommunications
+  - Participated in a subproject of a National Natural Science Foundation major project.
+  - Focused on asynchronous training, model pruning, and federated topic modeling.
+
+- *2022.03 - 2022.09*: Shared mobility review and sentiment analysis, BUPT-Didi joint project
+  - Conducted topic analysis of user reviews from a shared mobility platform.
+  - Analyzed user feedback and sentiment trends for taxi connection scenarios.
+
+# <i class="fas fa-trophy"></i> Honors & Awards
+
+- *2024*: Beijing Outstanding Graduate, Provincial Level.
+- *2021*: Honorary Bachelor's Degree, Chongqing University of Posts and Telecommunications, School Level.
+- *2021*: Chongqing Municipal Advanced Individual in Innovation Capability Enhancement, Provincial Level.
+
+# <i class="fas fa-bullhorn"></i> Services
+
+- *2026*: ICML 2026 Silver Reviewer.
+- *2023*: China Open volunteer.
+
+# <i class="fas fa-envelope"></i> Contact
+
+- Email: [cjma@ramo.yonsei.ac.kr](mailto:cjma@ramo.yonsei.ac.kr)
+- Google Scholar: [Profile](https://scholar.google.com/citations?user=rQ45e8EAAAAJ)

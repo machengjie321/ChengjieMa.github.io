@@ -327,3 +327,7 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
 
 - *2026*: ICML 2026 Silver Reviewer.
 - *2023*: China Open volunteer.
+
+# <i class="fas fa-bullhorn"></i> News
+
+- *New*: My first ICML.

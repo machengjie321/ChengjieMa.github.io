@@ -111,7 +111,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am <span class="accent-text">MA CHENGJIE</span> (<span>马成洁</span>) at <span class="primary-gradient-text">Yonsei University</span>. My research focus is <span class="primary-gradient-text">Federated Learning</span>. You can reach me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
+I am <span class="accent-text">MA CHENGJIE</span> at <span class="primary-gradient-text">Yonsei University</span>. My research focuses on <span class="primary-gradient-text">Efficient Machine Learning, Federated Learning, LLM Fine-tuning, and AI-RAN</span>. You can reach me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
 
 <div class="quote-accent">
 This homepage is wired to sync publication metadata from <span class="primary-gradient-text">Google Scholar</span>.
@@ -125,8 +125,8 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
   </div>
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Research</div>
-    <div class="scholar-summary-value">Federated Learning</div>
-    <p class="scholar-summary-copy">Verified email at yonsei.ac.kr on Google Scholar.</p>
+    <div class="scholar-summary-value">Efficient ML</div>
+    <p class="scholar-summary-copy">Federated learning, LLM fine-tuning, and AI-RAN are the main themes on the page.</p>
   </div>
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Scholar Sync</div>
@@ -134,6 +134,67 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
     <p class="scholar-summary-copy">Publications will appear automatically after the GitHub Action writes Scholar data.</p>
   </div>
 </div>
+
+# <i class="fas fa-lightbulb"></i> Research Interests
+
+- Efficient Machine Learning
+- LLM Fine-tuning
+- Federated Learning
+- AI-RAN
+
+# <i class="fas fa-graduation-cap"></i> Education
+
+- *2024.09 - Present*: Ph.D. student, Department of Electrical and Electronic Engineering, Yonsei University
+  - GPA: 97.3/100
+  - Advisor: Professor Seong-Lyun Kim
+  - Research focus: Efficient Machine Learning and AI-RAN
+
+- *2021.09 - 2024.06*: M.S. in Computer Science and Technology, Beijing University of Posts and Telecommunications
+  - GPA: 92.69/100
+  - Advisor: Professor Junping Du
+  - Thesis: Communication-efficient Federated Learning with Asynchrony and Pruning
+
+- *2017.09 - 2021.06*: B.S. in Computer Science and Technology, Chongqing University of Posts and Telecommunications
+  - GPA: 87.11/100, Top 2%
+  - Honorary Bachelor's Degree
+  - Minor: Business Administration
+
+# <i class="fas fa-briefcase"></i> Experience
+
+- *2025.09 - Present*: LLM fine-tuning and LoRA structure research, Yonsei University
+  - Exploring efficient fine-tuning methods for edge clients with limited compute and memory.
+  - Studying adaptive LoRA structures to improve parameter efficiency and training performance.
+
+- *2025.09 - Present*: AI-RAN research, Yonsei University
+  - Investigating GPU-accelerated base-station architectures for AI-RAN.
+  - Exploring the feasibility of moving selected gNB L1 workloads from CPU to GPU using NVIDIA Aerial.
+
+- *2024.09 - 2025.09*: Heterogeneous client federated learning, Yonsei University
+  - Studied federated learning with diverse client devices, asynchronous training, and heterogeneous model capacities.
+  - Analyzed how system and model heterogeneity affect update drift and training degradation.
+
+- *2022.09 - 2024.06*: Communication-efficient federated learning, Beijing University of Posts and Telecommunications
+  - Participated in a subproject of a National Natural Science Foundation major project.
+  - Focused on asynchronous training, model pruning, and federated topic modeling.
+
+- *2022.03 - 2022.09*: Shared mobility review and sentiment analysis, BUPT-Didi joint project
+  - Conducted topic analysis of user reviews from a shared mobility platform.
+  - Analyzed user feedback and sentiment trends for taxi connection scenarios.
+
+# <i class="fas fa-trophy"></i> Honors & Awards
+
+- *2024*: Beijing Outstanding Graduate, Provincial Level.
+- *2021*: Honorary Bachelor's Degree, Chongqing University of Posts and Telecommunications, School Level.
+- *2021*: Chongqing Municipal Advanced Individual in Innovation Capability Enhancement, Provincial Level.
+
+# <i class="fas fa-clipboard-check"></i> Reviewing
+
+- ICML 2026 Silver Reviewer.
+
+# <i class="fas fa-envelope"></i> Contact
+
+- Email: [cjma@ramo.yonsei.ac.kr](mailto:cjma@ramo.yonsei.ac.kr)
+- Google Scholar: [Profile](https://scholar.google.com/citations?user=rQ45e8EAAAAJ)
 
 # <i class="fas fa-file-alt"></i> Publications
 

@@ -111,6 +111,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# <i class="fas fa-user"></i> About Me
+
 I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span class="primary-gradient-text">Electrical and Electronic Engineering</span> at <span class="primary-gradient-text">Yonsei University</span>, based in <span class="primary-gradient-text">Sinchon, Seoul</span>. My research focuses on <span class="primary-gradient-text">Efficient Machine Learning, Federated Learning, LLM Fine-tuning, and AI-RAN</span>. If you enjoy <span class="primary-gradient-text">badminton, cycling, hiking,</span> or <span class="primary-gradient-text">academic exchange</span>, feel free to reach out. You can contact me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
 
 # <i class="fas fa-bullhorn"></i> News

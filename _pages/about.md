@@ -125,13 +125,6 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
   </div>
 </div>
 
-# <i class="fas fa-lightbulb"></i> Research Interests
-
-- Efficient Machine Learning
-- LLM Fine-tuning
-- Federated Learning
-- AI-RAN
-
 # <i class="fas fa-graduation-cap"></i> Educations
 
 - *2024.09 - Present*: Ph.D. student, Department of Electrical and Electronic Engineering, Yonsei University

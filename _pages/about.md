@@ -122,12 +122,6 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Research</div>
     <div class="scholar-summary-value">Efficient ML</div>
-    <p class="scholar-summary-copy">Federated learning, LLM fine-tuning, and AI-RAN are the main themes on the page.</p>
-  </div>
-  <div class="scholar-summary-card floating-card">
-    <div class="scholar-summary-label">Scholar Sync</div>
-    <div class="scholar-summary-value"><span id="total_cit">loading...</span> citations</div>
-    <p class="scholar-summary-copy">Publications will appear automatically after the GitHub Action writes Scholar data.</p>
   </div>
 </div>
 

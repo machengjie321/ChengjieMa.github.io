@@ -121,7 +121,7 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
   </div>
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Research</div>
-    <div class="scholar-summary-value">Efficient ML</div>
+    <div class="scholar-summary-value">Efficient ML, Edge AI, Federated Learning, LLM Fine-tuning, and AI-RAN</div>
   </div>
 </div>
 

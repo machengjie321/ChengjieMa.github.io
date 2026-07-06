@@ -111,7 +111,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am <span class="accent-text">MA CHENGJIE</span> at <span class="primary-gradient-text">Yonsei University</span>. My research focuses on <span class="primary-gradient-text">Efficient Machine Learning, Federated Learning, LLM Fine-tuning, and AI-RAN</span>. You can reach me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
+I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span class="primary-gradient-text">Electrical and Electronic Engineering</span> at <span class="primary-gradient-text">Yonsei University</span>. My research focuses on <span class="primary-gradient-text">Efficient Machine Learning, Federated Learning, LLM Fine-tuning, and AI-RAN</span>. You can reach me at <a href="mailto:cjma@ramo.yonsei.ac.kr" class="link-accent">cjma@ramo.yonsei.ac.kr</a>.
 
 <div class="quote-accent">
 This homepage is wired to sync publication metadata from <span class="primary-gradient-text">Google Scholar</span>.
@@ -121,7 +121,7 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Affiliation</div>
     <div class="scholar-summary-value">Yonsei University</div>
-    <p class="scholar-summary-copy">Current homepage placeholder until you want to add a fuller bio.</p>
+    <p class="scholar-summary-copy">Ph.D. student in Electrical and Electronic Engineering.</p>
   </div>
   <div class="scholar-summary-card floating-card">
     <div class="scholar-summary-label">Research</div>
@@ -135,6 +135,11 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
   </div>
 </div>
 
+# <i class="fas fa-bullhorn"></i> News
+
+- *2026*: ICML 2026 Silver Reviewer.
+- *Current*: Updating the homepage with education, internships, honors, and Google Scholar sync.
+
 # <i class="fas fa-lightbulb"></i> Research Interests
 
 - Efficient Machine Learning
@@ -142,7 +147,7 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
 - Federated Learning
 - AI-RAN
 
-# <i class="fas fa-graduation-cap"></i> Education
+# <i class="fas fa-graduation-cap"></i> Educations
 
 - *2024.09 - Present*: Ph.D. student, Department of Electrical and Electronic Engineering, Yonsei University
   - GPA: 97.3/100
@@ -159,7 +164,7 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
   - Honorary Bachelor's Degree
   - Minor: Business Administration
 
-# <i class="fas fa-briefcase"></i> Experience
+# <i class="fas fa-briefcase"></i> Internships
 
 - *2025.09 - Present*: LLM fine-tuning and LoRA structure research, Yonsei University
   - Exploring efficient fine-tuning methods for edge clients with limited compute and memory.
@@ -186,10 +191,6 @@ This homepage is wired to sync publication metadata from <span class="primary-gr
 - *2024*: Beijing Outstanding Graduate, Provincial Level.
 - *2021*: Honorary Bachelor's Degree, Chongqing University of Posts and Telecommunications, School Level.
 - *2021*: Chongqing Municipal Advanced Individual in Innovation Capability Enhancement, Provincial Level.
-
-# <i class="fas fa-clipboard-check"></i> Reviewing
-
-- ICML 2026 Silver Reviewer.
 
 # <i class="fas fa-envelope"></i> Contact
 

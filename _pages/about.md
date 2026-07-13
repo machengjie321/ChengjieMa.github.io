@@ -180,6 +180,14 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
     }
   ];
 
+  function normalizeTitle(value) {
+    return asText(value).toLowerCase().replace(/\s+/g, ' ').trim();
+  }
+
+  const fallbackPublicationMap = Object.fromEntries(
+    fallbackPublications.map(pub => [normalizeTitle(pub.title), pub])
+  );
+
   function asText(value) {
     return value === null || value === undefined ? '' : String(value);
   }
@@ -194,25 +202,37 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
   }
 
   function renderPublication(pub) {
+    const fallbackPub = fallbackPublicationMap[
+      normalizeTitle(firstNonEmpty([
+        pub && pub.bib && pub.bib.title,
+        pub && pub.title
+      ]))
+    ] || null;
+
     const card = document.createElement('article');
     card.className = 'scholar-paper-card floating-card';
 
     const title = firstNonEmpty([
       pub && pub.bib && pub.bib.title,
+      fallbackPub && fallbackPub.title,
       pub && pub.title,
       'Untitled publication'
     ]);
     const authors = firstNonEmpty([
       pub && pub.bib && pub.bib.author,
+      fallbackPub && fallbackPub.authors,
       pub && pub.authors
     ]);
     const venue = firstNonEmpty([
       pub && pub.bib && pub.bib.venue,
       pub && pub.bib && pub.bib.journal,
       pub && pub.bib && pub.bib.publisher
+      ,
+      fallbackPub && fallbackPub.venue
     ]);
     const year = firstNonEmpty([
       pub && pub.bib && pub.bib.pub_year,
+      fallbackPub && fallbackPub.year,
       pub && pub.year
     ]);
     const citations = pub && pub.num_citations ? pub.num_citations : 0;

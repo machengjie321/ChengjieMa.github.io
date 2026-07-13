@@ -83,6 +83,15 @@ redirect_from:
   color: rgba(15, 23, 42, 0.76);
 }
 
+.scholar-paper-authors,
+.scholar-paper-venue {
+  display: block;
+}
+
+.scholar-paper-venue strong {
+  color: #0f172a;
+}
+
 .scholar-paper-badge {
   display: inline-flex;
   align-items: center;
@@ -214,18 +223,27 @@ I am <span class="accent-text">MA CHENGJIE</span>, a Ph.D. student in <span clas
 
     const metaEl = document.createElement('div');
     metaEl.className = 'scholar-paper-meta';
-    const metaParts = [];
-    if (authors) metaParts.push(authors);
-    if (venue) metaParts.push(venue);
-    if (year) metaParts.push(year);
-    metaEl.textContent = metaParts.join(' · ');
+    if (authors) {
+      const authorsEl = document.createElement('span');
+      authorsEl.className = 'scholar-paper-authors';
+      authorsEl.textContent = authors;
+      metaEl.appendChild(authorsEl);
+    }
+    if (venue || year) {
+      const venueEl = document.createElement('span');
+      venueEl.className = 'scholar-paper-venue';
+      venueEl.innerHTML = venue
+        ? `<strong>Venue:</strong> ${venue}${year ? ` (${year})` : ''}`
+        : `<strong>Year:</strong> ${year}`;
+      metaEl.appendChild(venueEl);
+    }
 
     const badgeEl = document.createElement('div');
     badgeEl.className = 'scholar-paper-badge';
     badgeEl.textContent = `Citations: ${asText(citations)}`;
 
     card.appendChild(titleEl);
-    if (metaParts.length > 0) {
+    if (metaEl.childNodes.length > 0) {
       card.appendChild(metaEl);
     }
     card.appendChild(badgeEl);
